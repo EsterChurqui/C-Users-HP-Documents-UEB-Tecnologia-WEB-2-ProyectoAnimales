@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\Desaparicion\" />
+    <Folder Include="Features\Animal\" />
+    <Folder Include="Features\Refugio\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaAnimales.Domain\SistemaAnimales.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
